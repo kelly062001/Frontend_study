@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            border-bottom: 1px solid gray;
+            padding-left: 20px;
+        }
+        footer{
+            border-top: 1px solid gray;
+            padding-left: 20px;
+            text-align: center;
+        }
+        .content{
+            display: flex;
+            padding-left: 20px;
+
+        }
+        .content nav{
+            border-right: 1px solid gray;
+        }
+        .content > aside{
+            border-left: 1px solid gray;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>생활코딩</h1>
+        </header>
+        <section class="content">
+            <nav>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+            </nav>
+            <main>
+                생활코딩은 일반인을 위한 코딩 수업입니다. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum massa quis aliquet lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus mi libero, congue in pellentesque in, malesuada in odio. Pellentesque dapibus ipsum nec tellus placerat condimentum. Nullam non varius nulla. Phasellus quam libero, luctus a diam non, ultrices suscipit lectus. Praesent fermentum ipsum quis facilisis aliquet. Etiam nibh augue, tempus vel ipsum vel, auctor elementum felis. Integer varius posuere arcu, quis sodales justo sagittis a. Praesent erat lacus, tristique imperdiet accumsan ut, porta et tellus. Aliquam est neque, pellentesque sed risus eu, luctus dignissim lectus. Duis nisi dolor, mattis nec fringilla vel, vulputate vel sem. Phasellus tristique blandit arcu at tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus sem massa, sed egestas elit aliquam commodo. Fusce sed congue nibh, a semper eros.
+            </main>
+            <aside>
+                AD
+            </aside>
+        </section>
+        <footer>
+            <a href="https://opentutorials.org">홈페이지</a>
+        </footer>
+    </div>
+</body>
+</html>
