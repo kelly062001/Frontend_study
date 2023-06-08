@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 20px;
+}
+
+.main{
+    padding: 5px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.button{
+    margin: 5px;
+}
+
+button{
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+
